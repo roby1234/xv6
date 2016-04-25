@@ -1,0 +1,11 @@
+/*Installing qemu emulator*/
+/*QEMU (short for Quick Emulator) is a free and open-source hosted hypervisor that performs hardware virtualization*/
+/*QEMU is hosted virtual machine monitor*/
+
+Or directly follow the following steps 
+mkdir new
+cd new
+git clone https://github.com/mit-pdos/xv6-public.git
+cd xv6-public
+make 
+make qemu
